@@ -68,7 +68,7 @@ uv run python martindale-lawyer-directory-api-example.py
 
 **A stable join key.** `isln`, the International Standard Lawyer Number, identifies the individual attorney rather than the page. It survives firm moves and name changes, which is what makes re-running a watchlist and diffing the `firm` field meaningful.
 
-**Cost you can predict.** Billing is one charged event per profile pushed to the dataset, and `maxResultsPerKeyword` caps that at the source. A keyword that matches nothing costs nothing. There is no per-run start fee, so a small run stays small.
+**Cost you can predict.** The charge that matters is one event per profile pushed to the dataset, and `maxResultsPerKeyword` caps that at the source before anything is collected. A keyword that matches nothing returns no profile rows and so adds nothing to the bill. A two-profile test run costs about what two profiles cost, which is why every recipe in this repo asks for two. Current rates are on the [Actor page](https://apify.com/johnvc/lawyer-directory-api?fpr=9n7kx3).
 
 ## Features
 
