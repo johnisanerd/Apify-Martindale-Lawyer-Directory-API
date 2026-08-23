@@ -407,4 +407,4 @@ For support or requests for this actor, please start a ticket [directly on our s
 
 *Use the Martindale Lawyer Directory API to power your legal research, counsel screening, and law firm data workflows with reliable, structured results.*
 
-Last Updated: 2026.08.19
+Last Updated: 2026.08.23
